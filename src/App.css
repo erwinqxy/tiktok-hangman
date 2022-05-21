@@ -1,8 +1,12 @@
-.App {
-     height: 100%;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-   }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: "Nunito", serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}

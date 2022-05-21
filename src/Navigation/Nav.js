@@ -14,16 +14,10 @@ const Navbar = () => {
       <Nav> 
           
         <NavMenu> 
-            <GiBullyMinion />
-          <NavLink to="/hangman" activeStyle> 
+        <GiBullyMinion />
+          <NavLink to="/" activeStyle> 
 
             Hangman 
-
-          </NavLink> 
-
-          <NavLink to="/about" activeStyle> 
-
-            About
 
           </NavLink> 
 
@@ -31,7 +25,15 @@ const Navbar = () => {
 
             Leaderboard 
 
+        </NavLink> 
+
+          <NavLink to="/about" activeStyle> 
+
+            About us
+
           </NavLink> 
+
+
 
           <ToggleMode />
 

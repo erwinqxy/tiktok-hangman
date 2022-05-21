@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
-import Hangman from "./Hangman/Hangman";
+
+import { Component } from "react";
+import "./App.css";
 import Nav from "./Navigation/Nav.js";
-import "./index.css";
 
 
 //import Navbar from './Navigation/Navbar'; 
@@ -10,25 +11,24 @@ import { BrowserRouter as Router, Routes, Route}
 
     from 'react-router-dom'; 
 
-import About from './pages/About'; 
+import About from '../src/pages/About'; 
 import ToggleMode from "./Components /ToggleMode";
+import Game from "./Game";
 
-class App extends Component {
-  render() {
-    return (
-      <>
+
+function App() {
+  return (
+    <>
         <Router> 
           <Nav /> 
             <Routes> 
-              <Route path='/hangman' element={<Hangman/>} /> 
+              <Route path='/' element={<Game/>} /> 
               <Route path='/about' element={<About/>} /> 
-              <Route path='/toggle' element={<ToggleMode/>} /> 
-              
+              <Route path='/toggle' element={<ToggleMode/>} />   
             </Routes> 
           </Router> 
-      </>
-    );
-  }
+    </>
+  );
 }
 
 export default App;

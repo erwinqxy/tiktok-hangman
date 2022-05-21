@@ -10,6 +10,7 @@ import img3 from "../Assets/Artboard 1-3.jpg";
 import img4 from "../Assets/Artboard 1-4.jpg";
 import img5 from "../Assets/Artboard 1-5.jpg";
 import img6 from "../Assets/Artboard 1-6.jpg";
+import Category from "../Components /Category";
 
 class Hangman extends Component {
   static defaultProps = {
@@ -86,6 +87,7 @@ class Hangman extends Component {
 
     return (
       <div className='Hangman'>
+
         <h1>Start guessing! 🤔💭 </h1>
         <h2> Enter a letter now! </h2>
       
@@ -107,7 +109,7 @@ class Hangman extends Component {
       </div>)
       }
 
-      <button id='reset' onClick={this.resetGame}>Reset Game</button>
+      <button id='reset' onClick={this.resetGame}>Reset</button>
       </div>
     );
   }

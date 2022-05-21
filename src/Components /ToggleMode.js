@@ -1,6 +1,7 @@
 import React from 'react';
 import { ThemeConsumer } from 'styled-components';
 import Button from './Button';
+import { VscColorMode } from "react-icons/vsc";
 
 export default function ToggleMode() {
   return (
@@ -16,7 +17,7 @@ export default function ToggleMode() {
             )
           }
         >
-        🌙
+        <VscColorMode />
         </Button>
       )}
     </ThemeConsumer>
