@@ -15,7 +15,7 @@ cd tiktok-hangman
 ```     
 4. Next, install `node-js` with this command:
  ```
- npm install --save react react-dom
+ npm install --save react react-dom 
  ```
 5. To run the project
 ```
