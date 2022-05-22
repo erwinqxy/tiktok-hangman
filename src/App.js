@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom'; 
 
 import About from '../src/pages/About'; 
-import ToggleMode from "./Components /ToggleMode";
+import ToggleMode from "./Components/ToggleMode";
 import Game from "./Game";
 
 

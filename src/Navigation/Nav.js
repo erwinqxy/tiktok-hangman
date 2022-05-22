@@ -1,5 +1,5 @@
 import React from "react"; 
-import ToggleMode from "../Components /ToggleMode";
+import ToggleMode from "../Components/ToggleMode";
 import { Nav, NavLink, NavMenu } from "./NavbarElements"; 
 import { GiBullyMinion } from "react-icons/gi";
 
