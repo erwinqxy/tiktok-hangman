@@ -11,7 +11,7 @@ git clone https://github.com/erwinqxy/tiktok-hangman.git
 ```
 3. Open the download directory using:  
 ```
-cd tiktok-hangman
+cd tiktok-hangman jaslfjkfja
 ```     
 4. Next, install `node-js` with this command:
  ```
