@@ -33,7 +33,7 @@ export const CategoryList = [
   "Movies",
   "Superheroes",
   "Countries",
-  "Naruto",
+  "Covid",
   "Flowers",
   "Disney",
   "HarryPotter",
@@ -200,26 +200,26 @@ export const Countries = [
   "portugal~Part of the Iberian peninsula."
 ];
 
-export const Naruto = [
-  "naruto uzumaki~The unpredictable number one hyperactive ninja.",
-  "rasenshuriken~Shuriken shaped variant of Wind Release : Rasengan.",
-  "susanoo~Gigantic humanoid avatar belonging to those who have awakened Mangekyou Sharingan.",
-  "kotoamatsukami~The greatest genjutsu belonging to Shisui.",
-  "sasuke uchiha~The last of his family who later became the Shadow Hokage.",
-  "mangekyou sharingan~The visual prowess of Itachi Uchiha.",
-  "madara uchiha~Indra's reincarnation and first Uchiha clan head.",
-  "chidori~Kakashi's original jutsu.",
-  "konohagakure~The Village Hidden in the Leaves.",
-  "kakashi hatake~A natural prodigy and one of Leaf's greatest, the Sixth Hokage.",
-  "genjutsu~Sensory illusions jutsu and among the main three besides Ninjutsu and Taijutsu.",
-  "jiraiya~The Toad Sage and one of the Sannins.",
-  "itachi uchiha~The unsung hero of the Leaf.",
-  "orochimaru~The twisted Sannin.",
-  "hashirama senju~Asura's recincarnation and the First Hokage.",
-  "hokage~Leader of the Hidden Leaf village.",
-  "shikamaru nara~Lazy but possesses the greatest intellect in Konoha.",
-  "jinchuriki~Humans who have tailed beasts sealed within them.",
-  "zabuza momochi~Demon of the Hidden Mist.",
+export const Covid = [
+  "surgical mask~compulsory for going out.",
+  "hand sanitizer~clean hands.",
+  "alcohol~kills virus.",
+  "social distancing~1 metre apart.",
+  "fine~breaking the rules.",
+  "quarantine~7 days.",
+  "hospital~busiest place.",
+  "art test kit~one line? two lines?",
+  "booster~extra shot.",
+  "injection~needles.",
+  "community club~free vaccine.",
+  "travelling~something we all miss doing.",
+  "lockdown~everyone to stay at home.",
+  "symptoms~experiences to check if you got covid.",
+  "coronavirus~covid-19.",
+  "vaccine~prevent covid-19.",
+  "epidemic~scale of covid-19.",
+  "work from home~everything turning online.",
+  "outbreak~a lot of new cases.",
   "yellow flash~The legendary Fourth Hokage and the fastest Shinobi ever.",
   "sakura haruno~Tsunade's apprentice and only the second person to acquire The Hundred Healings.",
   "hinata hyuga~Creator of the Twin Lion Fists.",
@@ -413,7 +413,7 @@ export const getEmoji = (category) => {
     case "Countries":
       emoji = " 🏳️";
       break;
-    case "Naruto":
+    case "Covid":
       emoji = " 🌀";
       break;
     case "Flowers":
