@@ -16,7 +16,7 @@ class GameEnd extends React.Component {
             <p>
               Wow, we have run out of words to describe you as well as for the
               quiz, literally. You have aced this with flying colors. You are
-              truy a champion and deserve this.
+              truly a champion and deserve this.
               <span role="img" aria-label="medal-emoji">
                 {" "}
                 🥇{" "}
@@ -30,12 +30,17 @@ class GameEnd extends React.Component {
                 : { display: "none" }
             }
           >
-            <p style={{ margin: "18px", color: "#644566", fontWeight: "bold" }}>
-              Sorry, but you have used up all your lives. However if you want to
-              continue challenging yourself, get started again.
+            <p style={{ margin: "15px", color: "#A52A2A", fontWeight: "lighter" }}>
+              Oh no you have used up all your lives. But if you want to
+              continue challenging yourself, try again.
+              <span role="img" aria-label="cry-emoji">
+                {" "}
+                😢{" "}
+              </span>
+            
             </p>
             <button className="btn" onClick={this.props.startGame}>
-              Play Again
+              Play Again!
             </button>
           </div>
         </div>
@@ -45,3 +50,4 @@ class GameEnd extends React.Component {
 }
 
 export default GameEnd;
+

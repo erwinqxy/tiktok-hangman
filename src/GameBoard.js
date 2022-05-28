@@ -95,20 +95,20 @@ class GameBoard extends React.Component {
   selectCategory(category) {
     let words = [];
     switch (category.split(" ")[0]) {
-      case "Colors":
-        words = Constants.Colors;
+      case "Animals":
+        words = Constants.Animals;
         break;
-      case "Shapes":
-        words = Constants.Shapes;
+      case "Cities":
+        words = Constants.Cities;
         break;
-      case "Movies":
-        words = Constants.Movies;
+      case "Fruits":
+        words = Constants.Fruits;
         break;
-      case "Superheroes":
-        words = Constants.Superheroes;
+      case "Drinks":
+        words = Constants.Drinks;
         break;
-      case "Countries":
-        words = Constants.Countries;
+      case "EverydayObjects":
+        words = Constants.EverydayObjects;
         break;
       case "Naruto":
         words = Constants.Naruto;
