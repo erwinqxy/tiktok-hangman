@@ -8,10 +8,8 @@ import {
   createGlobalStyle
 } from 'styled-components';
 import useTheme from './useTheme';
-import ToggleMode from './Components/ToggleMode.js';
 import style from 'styled-theming';
 import './style.css';
-import Navbar from './Navigation/Navbar';
 
 
 const getBackground = style('mode', {

@@ -28,176 +28,79 @@ export const AlphabetsList = [
 ];
 
 export const CategoryList = [
-  "Colors",
-  "Shapes",
-  "Movies",
-  "Superheroes",
-  "Countries",
-  "Covid",
+  "Animals",
+  "Cities",
+  "Fruits",
+  "Drinks",
+  "EverydayObjects",
   "FastFoodBrands",
   "PhoneBrands",
   "Malls",
   "MRT",
 ];
 
-export const Colors = [
-  "fuchsia~Fancy name for a shade of pink.",
-  "salmon~Also the name of a fish.",
-  "firebrick~Brick used in furnaces.",
-  "coral~Great Barrier Reef is famous for this.",
-  "moccasin~Type of footwear.",
-  "lavender~Flower used for aromatherapy.",
-  "olive~Mediterranean fruit.",
-  "teal~Freshwater wild ducks.",
-  "peachpuff~Named after Peach.",
-  "cornsilk~Has corn in it's name.",
-  "turquoise~Bluish green phosphate mineral.",
-  "sienna~Yellowish brown Earth pigment.",
-  "cadetblue~Shade of cyan.",
-  "chocolate~Made from cocoa.",
-  "seashell~Found washed up on beaches.",
-  "honeydew~Named after a fruit of the melon family.",
-  "ivory~Elephant's tusk.",
-  "papayawhip~Named after papaya.",
-  "thistle~National flower of Scotland.",
-  "amber~Glistening gem.",
-  "rosybrown~Light shade of red with brown in it's name.",
-  "beige~Color of natural wool.",
-  "burlywood~Derives it's name from wood.",
-  "gold~Precious metal.",
-  "cyan~Member of CMYK quartet.",
-  "plum~Popular form of cake.",
-  "snow~Ice crystals.",
-  "wheat~Most widely used grain.",
-  "tomato~La Tomatina festival."
+export const Animals = [
+  "cat~The only domesticated species in the family Felidae.",
+  "rabbit~A long-eared mammal.",
+  "cow~Commonly raised as livestock for meat or milk.",
+  "wolf~Largest member of the dog family.",
+  "kangaroo~A marsupial.",
+  "bear~Carnivoran mammals of the family Ursidae.",
+  "elephant~The largest existing land animal.",
+  "penguin~An aquatic flightless bird.",
+  "pig~The fifth-most intelligent animal in the world."
 ];
 
-export const Shapes = [
-  "rhombus~Diamond shape.",
-  "cube~Rubik's ?",
-  "pentagon~Symbol of US military.",
-  "cone~Ice cream holders.",
-  "trapezoid~Trapezium in English outside North America.",
-  "oval~Cricket ground in London.",
-  "ellipse~Squashed circle.",
-  "square~Four equal sides.",
-  "triangle~Equilateral, isosceles and scalene.",
-  "parallelogram~Special type of quadrilateral.",
-  "cylinder~Flat circular ends and long straight sides.",
-  "hexagon~Benzene rings are of this shape.",
-  "rectangle~Quadrilateral with four right angles.",
-  "circle~Has a radius and a diameter.",
-  "triangular prism~Three sided prism.",
-  "octahedron~Polyhedron with eight faces.",
-  "heptagon~Also known as Septagon.",
-  "octagon~Eight sided polygon.",
-  "quadrilateral~Base of square and rectangle.",
-  "trapezium~Alternative name of trapezoid.",
-  "polygon~Base of hexagon, heptagon and octagon.",
-  "sphere~Shape of the Earth.",
-  "cuboid~Convex polyhedron with six faces.",
-  "pyramid~Found in Egypt.",
-  "ellipsoid~Obtained from sphere by deforming it.",
-  "nonagon~Nine sided polygon.",
-  "tetrahedron~Pyramid shape with four sides.",
-  "kite~Flying object.",
-  "decagon~Ten sided polygon."
+export const Cities = [
+  "tokyo~Famous for ramen.",
+  "singapore~The little red dot.",
+  "amsterdam~On the forefront of sustainable tourism.",
+  "dubai~Record-setting skyscrapers.",
+  "copenhagen~Many innovative green initiatives.",
+  "new york~The city that never sleeps.",
+  "shanghai~The most populous city in the world.",
+  "beijing~Capital of China.",
+  "raleigh~Capital of the state of North Carolina.",
+  "liverpool~The hometown of The Beatles.",
+  "kuala lumpur~Famous for its Petronas Twin Towers.",
+  "jakarta~Largest city in Southeast Asia."
 ];
 
-export const Movies = [
-  "the vow~Wedding promise.",
-  "princess diaries~Princess of Genovia.",
-  "jumanji~World's most dangerous video game.",
-  "the notebook~Allie and Noah.",
-  "freaky friday~Mother and daughter switching souls.",
-  "frozen~True love can thaw a ? heart.",
-  "brave~Scottish tale of an archer princess.",
-  "tangled~Girl with the 70 foot long golden locks.",
-  "notting hill~British bookseller meets American actress.",
-  "love actually~Christmas themed romantic comedy.",
-  "amelie~Young French waitress caught in an imaginative world.",
-  "pretty woman~Romantic comedy with Julia Roberts as lead.",
-  "titanic~The ship that could not sink.",
-  "the proposal~Andrew and Margaret's trip to Sitka.",
-  "the terminal~Victor Navorski stranded at the airport.",
-  "sully~Miracle on the Hudson.",
-  "home alone~Eight year old Kevin saving his house from burglars.",
-  "blended~Blended familymoon.",
-  "despicable me~Gru and his Minions.",
-  "inception~Your mind is the scene of the crime.",
-  "ratatouille~Little Chef.",
-  "ghostbusters~Catching ghosts in New York.",
-  "up~On an adventure in a flying house.",
-  "finding neverland~Story of a man who doesn't want to grow up.",
-  "fantastic four~Astronauts gaining superpowers after being hit by cosmic radiation.",
-  "coco~Miguel's adventures in the Land of the Dead.",
-  "onward~Ian and Barley embark on a magical quest.",
-  "interstellar~A team of explorers travel through a wormhole in space to ensure humanity's survival.",
-  "gravity~Two astronauts marooned in space struggle for survival."
+export const Fruits = [
+  "banana~Used to make pisang goreng.",
+  "strawberry~Bright red and juicy.",
+  "papaya~Also known as pawpaws.",
+  "watermelon~Has a very high water content.",
+  "lemon~Good source of vitamin C.",
+  "durian~The esplanade.",
+  "mango~Has a large seed in the middle.",
+  "pineapple~Indigenous to South America.",
+  "avocado~Rich in healthy fats.",
+  "apple~Eat one of these every day to keep the doctor away!",
+  "grapes~Used to make wine."
 ];
 
-export const Superheroes = [
-  "thor~God of Thunder.",
-  "wonder woman~Amazonian warrior queen.",
-  "superman~Man of Steel.",
-  "rogue~A mutant, she absorbs the power of anyone she touches.",
-  "black panther~Wakandan king.",
-  "storm~Possesses psionic abilities to manipulate the weather.",
-  "hawkeye~Master marksman and a former special agent of S.H.I.E.L.D.",
-  "captain america~God's righteous man who leads the Avengers.",
-  "ironman~Genius. Billionaire. Playboy. Philanthropist.",
-  "black widow~Super spy who has become one of S.H.I.E.L.D.'s most deadly assassins.",
-  "starlord~Leader of the Guardians of the Galaxy",
-  "scarlet witch~Powerful mutant sorceress, has been a part of both Avengers and X-Men.",
-  "green lantern~Part of an alien interstellar police force who fights evil with the aid of his ring.",
-  "batman~The Dark Knight.",
-  "spiderman~The friendly neighbourhood superhero.",
-  "antman~Master thief and now a superhero who can shrink and expand with the help of his futuristic suit.",
-  "cyclops~The first of the X-Men who can unleash an uncontrollable blast of optic force.",
-  "flash~The fastest man alive who fights against evil with his super speed.",
-  "quicksilver~With the ability to run at the speed of sound, he is always racing to uncover his past and the road to the future.",
-  "captain marvel~Former pilot, who upon being exposed to energy of the Tesseract, obtained cosmic powers.",
-  "wolverine~A mutant with healing power, adamantium metal claws and a no-nonsense attitude.",
-  "aquaman~King of the Seven Seas.",
-  "human torch~An astronaut, who gained his powers on a spacecraft bombarded by cosmic rays.",
-  "invisible woman~Uses her power of invisibility and mental ability to manipulate ambient cosmic energy to save Earth.",
-  "hulk~Bruce Banner's alter ego, who is always angry.",
-  "falcon~A former US Air Force pararescue airman, he teams up with Cap to foil HYDRA's plans.",
-  "the thing~Orange colored, thick skinned, heavily muscled, and superhumanly strong thing.",
-  "hawkgirl~An immortal warrior and part of the Justice League.",
-  "deadpool~Merc with a Mouth."
+export const Drinks = [
+  "oat milk~Plant milk derived from whole oat grains by extracting the plant material with water.",
+  "mocha~A mixture of espresso, milk and chocolate.",
+  "bubble tea~A tea-based drink that originated in Taiwan.",
+  "tea~An aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves.",
+  "latte~Coffee beverage made with espresso and steamed milk.",
+  "milo~Chocolate-flavoured malted powder product produced by Nestle.",
+  "soda~Another name for soft drinks.",
+  "kombucha~Fermented, lightly effervescent, sweetened black or green tea drink commonly consumed for its purported health benefits.",
+  "lemonade~What do you make when life gives you lemons?"
 ];
 
-export const Countries = [
-  "spain~La Tomatina festival.",
-  "india~Home of the Taj Mahal.",
-  "morocco~Mountainous country of western North Africa that lies directly across the Strait of Gibraltar from Spain.",
-  "france~Cannes film festival is hosted here.",
-  "netherlands~The Oranje country.",
-  "russia~Largest country in the world.",
-  "ireland~The Emerald Isle of Europe.",
-  "germany~Oktoberfest destination.",
-  "italy~Home of pizza and pasta.",
-  "austria~Lies in East Central Europe and is surrounded by 8 different countries.",
-  "czech republic~Has the highest castle density in the world.",
-  "ghana~The Garden City of West Africa is situated here.",
-  "maldives~Island nation in the Indian ocean, known for its natural environment including the blue ocean, white beaches and clean air.",
-  "croatia~The great Nikola Tesla was born here.",
-  "malaysia~Home to the Petronas Towers.",
-  "fiji~Soft Coral Capital of the World.",
-  "denmark~Home to LEGO and handball and birthplace of Hans Christian Andersen.",
-  "jamaica~Caribbean nation known for its sports achievements.",
-  "norway~Land of the midnight sun.",
-  "canada~Has a maple leaf on its flag.",
-  "sweden~Home to IKEA, Volvo and H&M.",
-  "mexico~Famous for its Mayan temples and its cuisine.",
-  "chile~Home to the Atacama desert.",
-  "brazil~The national football team of this country has won the FIFA World Cup a record five times.",
-  "iceland~Land of the volcanoes and hot springs.",
-  "new zealand~All Blacks and All Whites.",
-  "argentina~FC Barcelona's GOAT resides here.",
-  "japan~Land of the Rising Sun.",
-  "portugal~Part of the Iberian peninsula."
+export const EverydayObjects = [
+  "comb~To untangle or style hair.",
+  "toothbrush~An oral hygiene tool used to clean the teeth, gums, and tongue.",
+  "mug~A type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, or tea.",
+  "alarm clock~Designed to wake you up.",
+  "ruler~Used to make measurements.",
+  "wallet~To store cash.",
+  "shower cap~A hat worn while bathing to protect hair from becoming wet.",
+  "hand sanitizer~A liquid or gel that is used to clean the hands and kill infection-causing microorganisms."
 ];
 
 export const Covid = [
@@ -326,26 +229,26 @@ export const Fantasy = [
   "pegasus~A mythical winged divine horse."
 ];
 
-export const TotalWords = 290;
+export const TotalWords = 271;
 export const TotalLives = 6;
 
 export const getEmoji = (category) => {
   let emoji = "";
   switch (category) {
-    case "Colors":
-      emoji = " 🎨";
+    case "Animals":
+      emoji = " 🐱";
       break;
-    case "Shapes":
-      emoji = " ⬜️";
+    case "Cities":
+      emoji = " 🌇";
       break;
-    case "Movies":
-      emoji = " 🎥";
+    case "Fruits":
+      emoji = " 🫐";
       break;
-    case "Superheroes":
-      emoji = " 🦸";
+    case "Drinks":
+      emoji = " 🍵";
       break;
-    case "Countries":
-      emoji = " 🏳️";
+    case "EverydayObjects":
+      emoji = " 🧢";
       break;
     case "Covid":
       emoji = " 🌀";

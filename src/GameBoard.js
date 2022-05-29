@@ -94,20 +94,20 @@ class GameBoard extends React.Component {
   selectCategory(category) {
     let words = [];
     switch (category.split(" ")[0]) {
-      case "Colors":
-        words = Constants.Colors;
+      case "Animals":
+        words = Constants.Animals;
         break;
-      case "Shapes":
-        words = Constants.Shapes;
+      case "Cities":
+        words = Constants.Cities;
         break;
-      case "Movies":
-        words = Constants.Movies;
+      case "Fruits":
+        words = Constants.Fruits;
         break;
-      case "Superheroes":
-        words = Constants.Superheroes;
+      case "Drinks":
+        words = Constants.Drinks;
         break;
-      case "Countries":
-        words = Constants.Countries;
+      case "EverydayObjects":
+        words = Constants.EverydayObjects;
         break;
       case "FastFoodBrands":
         words = Constants.FastFoodBrands;
@@ -294,9 +294,9 @@ class GameBoard extends React.Component {
           key={"life_" + i}
           id={"life_" + i}
           role="img"
-          aria-label="gem-emoji"
+          aria-label="heart-emoji"
         >
-          💎
+          ❤️
         </span>
       );
     }
@@ -332,8 +332,8 @@ class GameBoard extends React.Component {
             >
               Categories
             </h3>
-            <span role="img" aria-label="pen-emoji">
-              📚
+            <span role="img" aria-label="score-emoji">
+              
             </span>
           </div>
           <div id="category-container">
@@ -387,12 +387,12 @@ class GameBoard extends React.Component {
           </div>
           <div id="stats-container">
             <p>
-              <span role="img" aria-label="pen-emoji">
-                ✒️
+              <span role="img" aria-label="apple-emoji">
+                🍎
               </span>{" "}
-              Score : {this.state.score}
+              Your Current Score 💯: {this.state.score}
             </p>
-            <p>Total Lives : {this.createLifeEmojis()}</p>
+            <p>Lives Left 😊 : {this.createLifeEmojis()}</p>
           </div>
           <div id="word-count-container">
             <p

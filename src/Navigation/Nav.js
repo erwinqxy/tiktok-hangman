@@ -1,51 +1,45 @@
-import React from "react"; 
+import React from "react";
 import ToggleMode from "../Components/ToggleMode";
-import { Nav, NavLink, NavMenu } from "./NavbarElements"; 
+import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import { GiBullyMinion } from "react-icons/gi";
 
 
-  
-const Navbar = () => { 
 
-  return ( 
+const Navbar = () => {
 
-    <> 
+  return (
 
-      <Nav> 
-          
-        <NavMenu> 
-        <GiBullyMinion />
-          <NavLink to="/" activeStyle> 
+    <>
 
-            Hangman 
+      <Nav>
 
-          </NavLink> 
+        <NavMenu>
+          <GiBullyMinion />
+          <NavLink to="/" activeStyle>
 
-          <NavLink to="/leaderboard" activeStyle> 
+            Hangman
 
-            Leaderboard 
+          </NavLink>
 
-        </NavLink> 
-
-          <NavLink to="/about" activeStyle> 
+          <NavLink to="/about" activeStyle>
 
             About us
 
-          </NavLink> 
+          </NavLink>
 
 
 
           <ToggleMode />
 
-        </NavMenu> 
+        </NavMenu>
 
-      </Nav> 
+      </Nav>
 
-    </> 
+    </>
 
-  ); 
-}; 
+  );
+};
 
-  
+
 
 export default Navbar; 
