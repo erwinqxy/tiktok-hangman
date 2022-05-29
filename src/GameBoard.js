@@ -110,20 +110,20 @@ class GameBoard extends React.Component {
       case "EverydayObjects":
         words = Constants.EverydayObjects;
         break;
-      case "Naruto":
-        words = Constants.Naruto;
+      case "COVID":
+        words = Constants.Covid;
         break;
-      case "Flowers":
-        words = Constants.Flowers;
+      case "FastFoodBrands":
+        words = Constants.FastFoodBrands;
         break;
-      case "Disney":
-        words = Constants.Disney;
+      case "PhoneBrands":
+        words = Constants.PhoneBrands;
         break;
-      case "HarryPotter":
-        words = Constants.HarryPotter;
+      case "Malls":
+        words = Constants.Malls;
         break;
-      case "Music":
-        words = Constants.Music;
+      case "MRT":
+        words = Constants.MRT;
         break;
       default:
         words = [];
