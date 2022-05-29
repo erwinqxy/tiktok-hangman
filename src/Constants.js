@@ -32,9 +32,10 @@ export const CategoryList = [
   "Cities",
   "Fruits",
   "Drinks",
-  "EverydayObjects",
-  "FastFoodBrands",
-  "PhoneBrands",
+  "Everyday Objects",
+  "COVID", 
+  "FastFood Brands",
+  "Phone Brands",
   "Malls",
   "MRT",
 ];
@@ -197,39 +198,9 @@ export const MRT = [
 	"toa payoh~oldest mrt station."
 ];
 
-export const Fantasy = [
-  "unicorn~Mythological animal resembling a horse with a single horn on its forehead.",
-  "lochness~In Scottish folklore, often described as large, long-necked, and with one or more humps protruding from the water.",
-  "apprentice~A person who works for another in order to learn a trade.",
-  "alchemy~Defined as the process of taking something ordinary and turning it into something extraordinary, sometimes in a way that cannot be explained.",
-  "chalice~A footed cup intended to hold a drink during a ceremony.",
-  "conjure~To make something appear by magic.",
-  "gnome~An ageless and often deformed dwarf of folklore who lives in the earth and usually guards treasure.",
-  "pixie~Mythical creature of British folklore portrayed as small and humanlike in form, with pointed ears and a pointed hat.",
-  "soothsayer~A person who predicts the future by magical, intuitive, or more rational means.",
-  "dungeon~A dark underground prison in a castle.",
-  "leprechaun~In Irish folklore, usually depicted as little bearded men, wearing a coat and hat, who partake in mischief.",
-  "bewitch~Control someone's behaviour with magic.",
-  "realm~An area of interest or activity.",
-  "satyr~A god in Greek literature who is half man and half goat.",
-  "golem~A figure artificially constructed in the form of a human being and endowed with life.",
-  "griffin~A mythical creature with the head and wings of an eagle and the body of a lion.",
-  "nymph~A nature spirit in the guise of an attractive maiden.",
-  "dragon~A mythical monster generally represented as a huge, winged reptile with crested head and enormous claws and teeth, and often spouting fire.",
-  "crystal ball~A sphere especially of quartz crystal traditionally used by fortune-tellers.",
-  "enchantment~The state of being under a spell.",
-  "hobbit~An imaginary race of half-size people living in holes.",
-  "divination~The art or practice that seeks to foresee or foretell future events.",
-  "portal~Large and imposing gateway or entry to something else.",
-  "phoenix~A mythological bird that cyclically regenerates or is otherwise born again.",
-  "hippogriff~A legendary animal having the foreparts of a griffin and the body of a horse.",
-  "yeti~Also known as the Abominable Snowman.",
-  "werewolf~A human with the ability to shapeshift into a wolf.",
-  "centaur~A race of creatures fabled to be half human and half horse.",
-  "pegasus~A mythical winged divine horse."
-];
 
-export const TotalWords = 271;
+
+export const TotalWords = 128;
 export const TotalLives = 6;
 
 export const getEmoji = (category) => {
@@ -247,23 +218,23 @@ export const getEmoji = (category) => {
     case "Drinks":
       emoji = " 🍵";
       break;
-    case "EverydayObjects":
+    case "Everyday Objects":
       emoji = " 🧢";
       break;
-    case "Covid":
-      emoji = " 🌀";
+    case "COVID":
+      emoji = " 🦠";
       break;
-    case "FastFoodBrands":
-      emoji = " 🌼";
+    case "FastFood Brands":
+      emoji = " 🍔";
       break;
-    case "PhoneBrands":
-      emoji = " 🧜‍♀️";
+    case "Phone Brands":
+      emoji = " 📱";
       break;
     case "Malls":
-      emoji = " 🧙";
+      emoji = " 🏬";
       break;
     case "MRT":
-      emoji = " 🎸";
+      emoji = " 🚆";
       break;
     default:
       emoji = [];
