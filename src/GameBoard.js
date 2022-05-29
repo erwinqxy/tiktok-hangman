@@ -110,7 +110,7 @@ class GameBoard extends React.Component {
       case "EverydayObjects":
         words = Constants.EverydayObjects;
         break;
-      case "COVID":
+      case "Covid":
         words = Constants.Covid;
         break;
       case "FastFoodBrands":
