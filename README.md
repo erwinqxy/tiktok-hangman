@@ -21,7 +21,3 @@ cd tiktok-hangman
 ```
 npm start
 ```
-
-## [WIP] Project Description 
-
-## [WIP]  Team Members 
