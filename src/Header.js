@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
   return (
     <>
-      <div id="navbar">HANGMAN</div>
+      <div id="navbar">HANGMAN 🧚🏻‍♂️</div>
     </>
   );
 }
