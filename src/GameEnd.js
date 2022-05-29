@@ -30,14 +30,19 @@ class GameEnd extends React.Component {
                 : { display: "none" }
             }
           >
-            <p style={{ margin: "15px", color: "#A52A2A", fontWeight: "lighter" }}>
-              Oh no you have used up all your lives. But if you want to
-              continue challenging yourself, try again.
+            <p
+              style={{
+                margin: "15px",
+                color: "#A52A2A",
+                fontWeight: "lighter",
+              }}
+            >
+              Oh no you have used up all your lives. But if you want to continue
+              challenging yourself, try again.
               <span role="img" aria-label="cry-emoji">
                 {" "}
                 😢{" "}
               </span>
-            
             </p>
             <button className="btn" onClick={this.props.startGame}>
               Play Again!
@@ -50,4 +55,3 @@ class GameEnd extends React.Component {
 }
 
 export default GameEnd;
-
