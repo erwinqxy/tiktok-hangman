@@ -16,10 +16,9 @@ import img5 from "./Assets/Artboard 1-5.jpg";
 import img6 from "./Assets/Artboard 1-6.jpg";
 
 class GameBoard extends React.Component {
-
   static defaultProps = {
     maxWrong: 6,
-    images: [img0, img1, img2, img3, img4, img5, img6]
+    images: [img0, img1, img2, img3, img4, img5, img6],
   };
 
   constructor(props) {
@@ -110,20 +109,17 @@ class GameBoard extends React.Component {
       case "Countries":
         words = Constants.Countries;
         break;
-      case "Naruto":
-        words = Constants.Naruto;
+      case "FastFoodBrands":
+        words = Constants.FastFoodBrands;
         break;
-      case "Flowers":
-        words = Constants.Flowers;
+      case "PhoneBrands":
+        words = Constants.PhoneBrands;
         break;
-      case "Disney":
-        words = Constants.Disney;
+      case "Malls":
+        words = Constants.Malls;
         break;
-      case "HarryPotter":
-        words = Constants.HarryPotter;
-        break;
-      case "Music":
-        words = Constants.Music;
+      case "MRT":
+        words = Constants.MRT;
         break;
       default:
         words = [];
@@ -308,7 +304,7 @@ class GameBoard extends React.Component {
   };
 
   render() {
-    const { nWrong, answer} = this.state;
+    const { nWrong, answer } = this.state;
     const { images, maxWrong } = this.props;
 
     let alternateText = `${this.state.nWrong} wrong guesses`;
@@ -349,7 +345,11 @@ class GameBoard extends React.Component {
               clickHandle={this.selectCategory}
             />
           </div>
-          <img src={images[6-Math.abs(this.state.totalLives)]} alt={alternateText} class="center"/>
+          <img
+            src={images[6 - Math.abs(this.state.totalLives)]}
+            alt={alternateText}
+            class="center"
+          />
 
           <p style={{ textAlign: "center", margin: "2px" }}>
             {this.state.gameState !== "" && this.state.selectedCategory !== ""
