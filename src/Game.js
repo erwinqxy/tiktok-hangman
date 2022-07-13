@@ -1,18 +1,14 @@
-import React from "react"; 
+import React from "react";
 import Header from "./Header";
 import GameBoard from "./GameBoard";
 
-const Game = () => { 
+const Game = () => {
+    return (
+        <>
+            <Header />
+            <GameBoard />
+        </>
+    );
+};
 
-  return ( 
-    <> 
-        <Header/>
-        <GameBoard />
-    </> 
-
-  ); 
-}; 
-
-  
-
-export default Game; 
+export default Game;

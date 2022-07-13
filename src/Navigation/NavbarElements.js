@@ -1,96 +1,82 @@
-import { FaBars } from "react-icons/fa"; 
+import { FaBars } from "react-icons/fa";
 
-import { NavLink as Link } from "react-router-dom"; 
+import { NavLink as Link } from "react-router-dom";
 
-import styled from "styled-components"; 
+import styled from "styled-components";
 
-  
-export const Nav = styled.nav` 
+export const Nav = styled.nav`
+    background: #85807e;
 
-  background: #85807E; 
+    height: 50px;
 
-  height: 50px; 
+    display: flex;
 
-  display: flex; 
+    justify-content: space-between;
 
-  justify-content: space-between; 
+    padding: 0.2rem calc((100vw - 1000px) / 2);
 
-  padding: 0.2rem calc((100vw - 1000px) / 2); 
+    z-index: 12;
+`;
 
-  z-index: 12; 
-`; 
+export const NavLink = styled(Link)`
+    color: #white;
 
-  
-export const NavLink = styled(Link)` 
+    display: flex;
 
-  color: #white; 
+    align-items: center;
 
-  display: flex; 
+    text-decoration: none;
 
-  align-items: center; 
+    padding: 0 1rem;
 
-  text-decoration: none; 
+    height: 100%;
 
-  padding: 0 1rem; 
+    cursor: pointer;
 
-  height: 100%; 
+    &.active {
+        color: #6a605d;
+    }
+`;
 
-  cursor: pointer; 
+export const Bars = styled(FaBars)`
+    display: none;
 
-  &.active { 
+    color: #808080;
 
-    color: #6A605D; 
+    @media screen and (max-width: 768px) {
+        display: block;
 
-  } 
-`; 
+        position: absolute;
 
-  
-export const Bars = styled(FaBars)` 
+        top: 0;
 
-  display: none; 
+        right: 0;
 
-  color: #808080; 
+        transform: translate(-100%, 75%);
 
-  @media screen and (max-width: 768px) { 
+        font-size: 1.8rem;
 
-    display: block; 
+        cursor: pointer;
+    }
+`;
 
-    position: absolute; 
+export const NavMenu = styled.div`
+    display: flex;
 
-    top: 0; 
+    align-items: center;
 
-    right: 0; 
+    margin-right: -24px;
 
-    transform: translate(-100%, 75%); 
+    /* Second Nav */
 
-    font-size: 1.8rem; 
+    /* margin-right: 24px; */
 
-    cursor: pointer; 
+    /* Third Nav */
 
-  } 
-`; 
-
-  
-export const NavMenu = styled.div` 
-
-  display: flex; 
-
-  align-items: center; 
-
-  margin-right: -24px; 
-
-  /* Second Nav */
-
-  /* margin-right: 24px; */
-
-  /* Third Nav */
-
-  /* width: 100vw; 
+    /* width: 100vw; 
 white-space: nowrap; */
 
-  @media screen and (max-width: 768px) { 
-
-    display: none; 
-
-  } 
-`; 
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`;

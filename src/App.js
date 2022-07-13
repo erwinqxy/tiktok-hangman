@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 
-import { Component } from "react";
 import "./App.css";
 import Nav from "./Navigation/Nav.js";
 
@@ -13,18 +12,18 @@ import ToggleMode from "./Components/ToggleMode";
 import Game from "./Game";
 
 function App() {
-  return (
-    <>
-      <Router>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Game />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/toggle" element={<ToggleMode />} />
-        </Routes>
-      </Router>
-    </>
-  );
+    return (
+        <>
+            <Router>
+                <Nav />
+                <Routes>
+                    <Route path="/" element={<Game />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/toggle" element={<ToggleMode />} />
+                </Routes>
+            </Router>
+        </>
+    );
 }
 
 export default App;
